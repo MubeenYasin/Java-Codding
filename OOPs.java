@@ -19,7 +19,7 @@ class Students {
     }
 }
 
-public class OOP {
+public class OOPs {
     public static void main(String args[]) {
         // 4- using non-parameteric constructer create objects
         Students s1 = new Students();

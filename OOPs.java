@@ -5,7 +5,7 @@
 // 1-   CREATE A CLASS OUTSIDE THE MAIN PUBLIC CLASS
 
 class Students {
-    // 2- dreate attributes for object Students(variables in oop are called
+    // 2- create attributes for object Students(variables in oop are called
     // attributes or properties)
     String name;
     String level;
@@ -17,6 +17,7 @@ class Students {
         System.out.println("Class : " + this.level);
         System.out.println("Age : " + this.age + " Years");
     }
+    
 }
 
 public class OOPs {

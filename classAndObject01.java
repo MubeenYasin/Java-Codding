@@ -7,24 +7,24 @@ class Animal {
 
     // define a mathood for class Animal(a functio in a class is called methood)
     public void bark() {
-        System.out.println("Woof Woof");
+        System.out.println(this.name +" Woof Woof");
     }
 
     public void meaoo() {
-        System.out.println("Meaoo Meaoo");
+        System.out.println(this.name + " Meaoo Meaoo");
     }
 
     // define methoods to use attributes (name, color, age)
     public void printName() {
-        System.out.println(this.name);
+        System.out.println("Name of Animal : " + this.name);
     }
 
     public void printColor() {
-        System.out.println(this.color);
+        System.out.println("Color of Animal : " + this.color);
     }
 
     public void printAge() {
-        System.out.println(this.age);
+        System.out.println("Age of Animal : " + this.age);
     }
 }
 
@@ -35,11 +35,11 @@ public class classAndObject01 {
         Animal cat = new Animal();
 
         // create attributes for objeects
-        dog.name = "Tomy";
+        dog.name = "Dog";
         dog.color = "Black";
         dog.age = 10;
 
-        cat.name = "chinnoo";
+        cat.name = "Cat";
         cat.color = "White";
         cat.age = 5;
 
